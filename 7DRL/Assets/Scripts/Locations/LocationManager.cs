@@ -325,7 +325,7 @@ public class LocationManager : MonoBehaviour
         // figure out which location is being trained
         string text = $"Trained {location.baseStatIncrease} {Enum.GetName(typeof(Player.StatIndex), location.statIndex)}";
         // start dialogue which tells the player what stat they trained 
-        DialougeSO dialouge = DialogueTextManager.Instance.GenerateDialogue("", text, "", null, DialougeTypes.SingleChoice, true, null, false, false);
+        DialougeSO dialouge = DialogueTextManager.Instance.GenerateDialogue("", text, "", null, DialougeTypes.SingleChoice, true, null, false, false, false);
         DialogueTextManager.Instance.StartDialouge(dialouge);
 
         yield return new WaitUntil(() => DialogueTextManager.Instance.IsInDialouge == false);

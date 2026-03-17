@@ -19,6 +19,7 @@ public class DialougeNode : Node
     public List<Reward> reward; 
     public bool pickRandomReward;
     public bool pickWhichReward;
+    public bool pickRewardBasedOnChoice;
     protected DialougeGraphView graphView;
     
 
@@ -161,6 +162,20 @@ public class DialougeNode : Node
             }
         });
         textFoldout.Add(pickWhichRewardToggle);
+
+        Toggle pickRewardBasedOnChoiceToggle = new Toggle("Pick Reward Based on Choice")
+        {
+            value = false
+        };
+
+        pickRewardBasedOnChoiceToggle.RegisterValueChangedCallback(evt =>
+        {
+            if (evt.newValue)
+            {
+                pickRewardBasedOnChoice = false;
+            }
+        });
+        textFoldout.Add(pickRewardBasedOnChoiceToggle);
 
 
         customDataContainer.Add(textFoldout);

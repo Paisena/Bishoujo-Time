@@ -102,6 +102,11 @@ public static class DialougeIOUtility
             node.Choices = choices;
             node.CharacterName = nodeData.CharacterName;
             node.CharacterIcon = nodeData.CharacterIcon;
+            node.reward = nodeData.Reward;
+            node.pickRandomReward = nodeData.PickRandomReward;
+            node.pickWhichReward = nodeData.PickWhichReward;
+            node.pickRewardBasedOnChoice = nodeData.PickRewardBasedOnChoice;
+
 
             node.Draw();
 
@@ -243,7 +248,7 @@ public static class DialougeIOUtility
 
         dialougeContainer.Dialouges.Add(dialouge);
 
-        dialouge.Initialize(node.DialougeName, node.Text, node.CharacterName, node.CharacterIcon, ConvertNodeChoicesToDialougeChoices(node.Choices), node.DialougeType, node.reward, node.IsStaringNode(), node.pickRandomReward, node.pickWhichReward);
+        dialouge.Initialize(node.DialougeName, node.Text, node.CharacterName, node.CharacterIcon, ConvertNodeChoicesToDialougeChoices(node.Choices), node.DialougeType, node.reward, node.IsStaringNode(), node.pickRandomReward, node.pickWhichReward, node.pickRewardBasedOnChoice);
 
         Debug.Log(dialouge.Choices.Count);
         if(ConvertNodeChoicesToDialougeChoices(node.Choices) == null)
@@ -305,6 +310,7 @@ public static class DialougeIOUtility
             Reward = node.reward,
             PickRandomReward = node.pickRandomReward,
             PickWhichReward = node.pickWhichReward,
+            PickRewardBasedOnChoice = node.pickRewardBasedOnChoice,
             DialougeType = node.DialougeType,
             Position = node.GetPosition().position,
         };

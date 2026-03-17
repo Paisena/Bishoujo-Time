@@ -14,9 +14,10 @@ public class DialougeSO : ScriptableObject
     [field: SerializeField] public List<Reward> reward;
     [field: SerializeField] public bool PickRewardRandom { get; set; }
     [field: SerializeField] public bool PickWhichReward { get; set; }
+    [field: SerializeField] public bool PickRewardBasedOnChoice { get; set; }
 
     public void Initialize(string dialougeName, string text, string characterName, Sprite characterIcon, List<DialougeChoiceData> choices, DialougeTypes dialougeTypes, List<Reward> reward, bool isStartingDialouge,
-     bool pickRewardRandom, bool pickWhichReward)
+     bool pickRewardRandom, bool pickWhichReward, bool pickRewardBasedOnChoice)
     {
         DialougeName = dialougeName;
         CharacterName = characterName;
@@ -28,5 +29,6 @@ public class DialougeSO : ScriptableObject
         this.reward = reward;
         PickRewardRandom = pickRewardRandom;
         PickWhichReward = pickWhichReward;
+        PickRewardBasedOnChoice = pickRewardBasedOnChoice;
     }
 }

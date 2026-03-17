@@ -6,10 +6,6 @@ using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using System;
 using System.Collections.Generic;
-using NUnit.Framework;
-using System.Linq;
-using UnityEngine.TextCore.Text;
-
 
 [RequireComponent(typeof(TextMeshProUGUI))]
 public class DialogueTextManager : MonoBehaviour
@@ -159,7 +155,7 @@ public class DialogueTextManager : MonoBehaviour
         NextDialouge();
         //print($"going to dialouge: {currentDialouge.DialougeName}");
     }
-
+#region Text Funcations
     public void StartDialouge()
     {
         // display anything related to dialouge here
@@ -216,27 +212,29 @@ public class DialogueTextManager : MonoBehaviour
 
         currentDialouge = currentDialouge.Choices[0].NextDialouge;
         CheckIfSpriteNull();
-        CheckIfNameNull();
-
-        // check if this dialogue has a requrement for progress, if so add
-        
+        CheckIfNameNull();        
         
         // check if the next dialouge has multiple choices
         if(currentDialouge.Choices.Count > 1)
         {
             //disable input outside of the button.
-            OnDisable(); // proably change this later
+            OnDisable(); // probably change this later
 
             GameObject optionButtonTransform = GameObject.Find("ChoiceTransform");
             for (int i = 0; i < currentDialouge.Choices.Count; i++)
             {
                 int index = i;
 
+
                 Button optionButton = Instantiate(optionButtonPrefab, new Vector2(0,0), Quaternion.identity, transform.parent);
                 optionButton.transform.SetParent(GameObject.Find("Canvas").transform, false);
                 RectTransform optionButtonRect = optionButtonTransform.GetComponent<RectTransform>();
                 Vector2 buttonPos = new Vector2(optionButtonRect.anchoredPosition.x, optionButtonRect.anchoredPosition.y - (i * optionButtonPrefab.GetComponent<RectTransform>().rect.height) + 2); 
                 
+                if (currentDialouge.PickRewardBasedOnChoice && currentDialouge.reward != null && i < currentDialouge.reward.Count)
+                {
+                    optionButton.GetComponent<RewardHolder>().reward = currentDialouge.reward[i];
+                }
                 optionButton.GetComponent<RectTransform>().anchoredPosition = buttonPos;
                 optionButton.GetComponentInChildren<TextMeshProUGUI>().text = currentDialouge.Choices[i].Text + " Button";
                 
@@ -314,6 +312,8 @@ public class DialogueTextManager : MonoBehaviour
         }
     }
 
+#endregion
+
     private void OnChoiceSelected(int choiceIndex)
     {
         print("Choice " + choiceIndex + " selected");
@@ -328,6 +328,17 @@ public class DialogueTextManager : MonoBehaviour
             // check if progress meter is full, if so trigger mood event
 
         }
+
+        if (currentDialouge.PickRewardBasedOnChoice && currentDialouge.reward != null && choiceIndex < currentDialouge.reward.Count)
+        {
+            Reward selectedReward = currentDialouge.reward[choiceIndex];
+            selectedReward.GiveReward(player);
+        }
+        else
+        {
+            print($"pickRewardBasedOnChoice is {currentDialouge.PickRewardBasedOnChoice} and reward is {(currentDialouge.reward != null ? "not null" : "null")} and choiceIndex is {choiceIndex} and reward count is {(currentDialouge.reward != null ? currentDialouge.reward.Count.ToString() : "N/A")}");
+        }
+
         currentDialouge = GetNextDialogue(currentDialouge, choiceIndex);
         CheckIfSpriteNull();
         CheckIfNameNull();
@@ -339,6 +350,7 @@ public class DialogueTextManager : MonoBehaviour
         OnEnable();
     }
 
+#region Utility Functions
     private void AddChoiceListener(Button button, int index)
     {
         button.onClick.AddListener(() => OnChoiceSelected(index));
@@ -440,6 +452,7 @@ public class DialogueTextManager : MonoBehaviour
     List<Reward> reward,
     bool pickRewardRandom,
     bool pickWhichReward,
+    bool pickRewardBasedOnChoice,
     List<DialougeChoiceData> choices = null)
     {
         DialougeSO newDialouge = ScriptableObject.CreateInstance<DialougeSO>();
@@ -449,7 +462,7 @@ public class DialogueTextManager : MonoBehaviour
             choices.Add(new DialougeChoiceData { Name = "Continue", Text = "Continue", Requirements = "", NextDialouge = null });
 
         }
-        newDialouge.Initialize(dialougeName, text, characterName, characterIcon, choices, dialougeTypes, reward, isStartingDialouge, pickRewardRandom, pickWhichReward);
+        newDialouge.Initialize(dialougeName, text, characterName, characterIcon, choices, dialougeTypes, reward, isStartingDialouge, pickRewardRandom, pickWhichReward, pickRewardBasedOnChoice);
         return newDialouge;
     }
 
@@ -478,6 +491,7 @@ public class DialogueTextManager : MonoBehaviour
         return new Vector3(0, offset, 0);
 
     }
+    #endregion
 }
 
 

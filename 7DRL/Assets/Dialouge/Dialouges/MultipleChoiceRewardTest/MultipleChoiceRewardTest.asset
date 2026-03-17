@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8272b93dc3d77eb438eb50b775493e52, type: 3}
+  m_Name: MultipleChoiceRewardTest
+  m_EditorClassIdentifier: Assembly-CSharp::DialougeContainerSO
+  <FileName>k__BackingField: MultipleChoiceRewardTest
+  <Dialouges>k__BackingField:
+  - {fileID: 11400000, guid: 65a1a8220a282c741b6ba27d0ebf780d, type: 2}
+  - {fileID: 11400000, guid: 6b38e66e988f9b148973659143c4078b, type: 2}
+  - {fileID: 11400000, guid: 32aaf3e772c3cd34a993b570ca46ba0c, type: 2}
+  - {fileID: 11400000, guid: 52ac5ff3e42a857469316aee0fac9590, type: 2}

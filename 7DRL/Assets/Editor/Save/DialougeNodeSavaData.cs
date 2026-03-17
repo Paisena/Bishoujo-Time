@@ -18,4 +18,5 @@ public class DialougeNodeSavaData
     [field: SerializeField] public DialougeTypes DialougeType { get; set; }
     [field: SerializeField] public Vector2 Position { get; set; }
     [field: SerializeField] public string Requirements { get; set; }
+    [field: SerializeField] public bool PickRewardBasedOnChoice { get; set; }
 }
