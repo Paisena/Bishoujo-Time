@@ -16,6 +16,6 @@ MonoBehaviour:
   dialouge: {fileID: 11400000, guid: f38222007a11e984da4c65ac18762d86, type: 2}
   statAffected: 1
   statChangeAmount: 0
-  eventStage: 0
+  eventStage: 1
   targetMoodRequirement: 0
   locationRequirement: 0

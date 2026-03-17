@@ -15,7 +15,7 @@ public class Target : MonoBehaviour
         Angry
         
     }    
-    private Mood targetMood;
+    [SerializeField] private Mood targetMood;
     public Mood TargetMood
     {
         get => targetMood;

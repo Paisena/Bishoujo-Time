@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e49f4bdedbc99c4782f52b014231536, type: 3}
-  m_Name: L1S2E1
+  m_Name: L2S1E1
   m_EditorClassIdentifier: Assembly-CSharp::TrainingEventSO
-  EventName: Location 1 event p1
-  dialouge: {fileID: 11400000, guid: 268c604bfd91bf54bba8f836b933e6e1, type: 2}
+  EventName: Location 2 event p1
+  dialouge: {fileID: 11400000, guid: 187448c5a65197e40a501fd775681d80, type: 2}
   statAffected: 1
   statChangeAmount: 0
   eventStage: 0
-  targetMoodRequirement: 0
-  locationRequirement: 0
+  targetMoodRequirement: 1
+  locationRequirement: 1

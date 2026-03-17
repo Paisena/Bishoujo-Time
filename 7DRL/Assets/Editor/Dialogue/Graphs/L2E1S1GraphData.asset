@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0339091ce14bb0640878a4b65c6c98e9, type: 3}
+  m_Name: L2E1S1GraphData
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DialougeGraphSavaDataSO
+  <FileName>k__BackingField: L2E1S1
+  <Nodes>k__BackingField:
+  - <Name>k__BackingField: L2E1S1,2
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Hey, whatcha working on?
+    <ID>k__BackingField: 63ae64a5-a298-47d3-9b71-d5b46fed5632
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 55bd4b49-841e-48ad-b643-274faccbbf4d
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1588, y: 3.2000008}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L2E1S1,3
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: 'She turns to face you with her eyes tearing up. '
+    <ID>k__BackingField: 55bd4b49-841e-48ad-b643-274faccbbf4d
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 813d2d87-0bd5-489c-aa17-e979d500e46a
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1292.8, y: 3.2000008}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L2E1S1,1
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: At the library, you see the girl doing work.
+    <ID>k__BackingField: f7d82682-b0fe-4092-8397-bf4b0136ffea
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 63ae64a5-a298-47d3-9b71-d5b46fed5632
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1902.4, y: 16}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L2E1S1,4
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Whats wrong whats wrong?
+    <ID>k__BackingField: 813d2d87-0bd5-489c-aa17-e979d500e46a
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 6712bc97-5f88-4e99-9ee0-fe1d797ec438
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -979.2, y: 2.3999996}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L2E1S1,5
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: M-m-my homework.
+    <ID>k__BackingField: 6712bc97-5f88-4e99-9ee0-fe1d797ec438
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 61a5d3b1-3ad0-4d29-8c81-b0a3cd9dc129
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -643.2, y: 3.2000008}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L2E1S1,6
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: You take a look at her homework.
+    <ID>k__BackingField: 61a5d3b1-3ad0-4d29-8c81-b0a3cd9dc129
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 3961bb00-e588-4837-964e-60a3da6dbfd0
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -346.4, y: 3.2000008}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L2E1S1,7
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: 'You see two coins, a dime and nickel. The question says:
+      which coin is the nickel?'
+    <ID>k__BackingField: 3961bb00-e588-4837-964e-60a3da6dbfd0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: c9c5d7b9-5219-45f6-ade5-43d0b2eec7a6
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -37.6, y: 3.2000008}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: DialougeName
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField:
+    - {fileID: 11400000, guid: f1bd70b4ab2f29148b36291b35fb8852, type: 2}
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Gained 15 intelligence
+    <ID>k__BackingField: c9c5d7b9-5219-45f6-ade5-43d0b2eec7a6
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 456.80002, y: 3.2000008}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  <OldUngroupedNodeNames>k__BackingField:
+  - L2E1S1,2
+  - L2E1S1,3
+  - L2E1S1,1
+  - L2E1S1,4
+  - L2E1S1,5
+  - L2E1S1,6
+  - L2E1S1,7
+  - DialougeName

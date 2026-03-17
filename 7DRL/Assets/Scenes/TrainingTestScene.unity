@@ -1848,9 +1848,9 @@ MonoBehaviour:
   - {fileID: 1513333094}
   - {fileID: 1024779691}
   TrainingEvents:
-  - {fileID: 11400000, guid: 9f91762e807af3a49aa75a1ca1048f03, type: 2}
-  - {fileID: 11400000, guid: d0b6ef5ab42578442978c95494a5cdde, type: 2}
-  - {fileID: 11400000, guid: c33693028378d5f46ae5f42478dc16d7, type: 2}
+  - {fileID: 11400000, guid: c0ad1c2f2b798ce4594df4a15f7e9e5d, type: 2}
+  - {fileID: 11400000, guid: 640983e1339ec664b9511e68e1a989ef, type: 2}
+  - {fileID: 11400000, guid: aa89a8155e2dbcb40b1cf1d972455594, type: 2}
   player: {fileID: 1793379098}
   currentStageIndex: 0
   EventIconPrefab: {fileID: 1459118432758001730, guid: 623c9c229c47c4141b5d3c5cbc2f6afc, type: 3}
@@ -1867,7 +1867,7 @@ MonoBehaviour:
   MoodChangeObject: {fileID: 1571695011}
   CharacterIconObject: {fileID: 1324006310}
   StageOpeningDialogue:
-  - {fileID: 11400000, guid: ef454ab11e493bb47a36dd7dd48f6ebd, type: 2}
+  - {fileID: 11400000, guid: 268c604bfd91bf54bba8f836b933e6e1, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   ConfessionDialogue:
@@ -2105,7 +2105,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: b7e23ab4f66b54043b092d1bf82e4596, type: 2}
   - {fileID: 11400000, guid: 87748d256f654a9458751277cc3237ff, type: 2}
   - {fileID: 11400000, guid: e2c49b70375930f47b63f8c340ce2c43, type: 2}
-  MoodEventChance: 50
+  MoodEventChance: 10
   moodEventText: {fileID: 1250226568}
   moodEventCheckFailed: 0
 --- !u!4 &783254912
@@ -2123,6 +2123,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &814972237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1679897303426658857, guid: 8a377dc26673bbd44bd752225a850fe1, type: 3}
+  m_PrefabInstance: {fileID: 1574571958}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &826339905
 GameObject:
   m_ObjectHideFlags: 0
@@ -2965,7 +2970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d581f03fe809cd048bbe3913c96da999, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrainingEventManager
-  eventChance: 70
+  eventChance: 90
 --- !u!4 &964774232
 Transform:
   m_ObjectHideFlags: 0
@@ -2991,7 +2996,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2379579252747226779, guid: 8a377dc26673bbd44bd752225a850fe1, type: 3}
   m_PrefabInstance: {fileID: 1574571958}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 814972237}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -3002,6 +3007,19 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 6688290846705143226, guid: 8a377dc26673bbd44bd752225a850fe1, type: 3}
   m_PrefabInstance: {fileID: 1574571958}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1000848339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 814972237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 514e7b8a6e79f4a4eb505aceebdd2609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  reward: {fileID: 0}
 --- !u!1 &1007905155
 GameObject:
   m_ObjectHideFlags: 0
@@ -3311,7 +3329,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Location
   LocationName: Location 1
-  LocationEvents: []
+  LocationEvents:
+  - {fileID: 11400000, guid: f38222007a11e984da4c65ac18762d86, type: 2}
   LocationEventIndex: 0
   baseStatIncrease: 100
   statIndex: 0
@@ -4248,6 +4267,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Target
   TargetName: Bobette
   TargetDescription: asds
+  targetMoodText: {fileID: 1195811226}
   targetMood: 0
   _progressValue: 0
   gameOver: 0
@@ -5225,7 +5245,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1679897303426658857, guid: 8a377dc26673bbd44bd752225a850fe1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1000848339}
   m_SourcePrefab: {fileID: 100100000, guid: 8a377dc26673bbd44bd752225a850fe1, type: 3}
 --- !u!1 &1615078650
 GameObject:
@@ -6589,7 +6612,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
