@@ -235,8 +235,9 @@ public class DialogueTextManager : MonoBehaviour
                 {
                     optionButton.GetComponent<RewardHolder>().reward = currentDialouge.reward[i];
                 }
+                
                 optionButton.GetComponent<RectTransform>().anchoredPosition = buttonPos;
-                optionButton.GetComponentInChildren<TextMeshProUGUI>().text = currentDialouge.Choices[i].Text + " Button";
+                optionButton.GetComponentInChildren<TextMeshProUGUI>().text = currentDialouge.Choices[i].Text;
                 
                 // change width of button based on text length but only extend it from one size so it stays lined up with the other buttons
                 float textWidth = optionButton.GetComponentInChildren<TextMeshProUGUI>().preferredWidth;
@@ -259,7 +260,7 @@ public class DialogueTextManager : MonoBehaviour
                 }
                 else
                 {
-                    print("No requirements for this choice");
+                    //print("No requirements for this choice");
                 }
                 
                 AddChoiceListener(optionButton, index);
@@ -316,7 +317,7 @@ public class DialogueTextManager : MonoBehaviour
 
     private void OnChoiceSelected(int choiceIndex)
     {
-        print("Choice " + choiceIndex + " selected");
+        //print("Choice " + choiceIndex + " selected");
         float progressValue = ChoiceDataParser.GetProgressValue(currentDialouge.Choices[choiceIndex].Requirements);
         if (progressValue != 0f)
         {
@@ -336,7 +337,7 @@ public class DialogueTextManager : MonoBehaviour
         }
         else
         {
-            print($"pickRewardBasedOnChoice is {currentDialouge.PickRewardBasedOnChoice} and reward is {(currentDialouge.reward != null ? "not null" : "null")} and choiceIndex is {choiceIndex} and reward count is {(currentDialouge.reward != null ? currentDialouge.reward.Count.ToString() : "N/A")}");
+            //print($"pickRewardBasedOnChoice is {currentDialouge.PickRewardBasedOnChoice} and reward is {(currentDialouge.reward != null ? "not null" : "null")} and choiceIndex is {choiceIndex} and reward count is {(currentDialouge.reward != null ? currentDialouge.reward.Count.ToString() : "N/A")}");
         }
 
         currentDialouge = GetNextDialogue(currentDialouge, choiceIndex);

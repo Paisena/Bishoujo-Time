@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using UnityEngine;
 
 public class Target : MonoBehaviour
@@ -6,6 +7,7 @@ public class Target : MonoBehaviour
     public event Action<float> onProgressValueChanged;
     public string TargetName;
     public string TargetDescription;
+    public TextMeshProUGUI targetMoodText;
     public enum Mood
     {
         Happy,
@@ -13,7 +15,19 @@ public class Target : MonoBehaviour
         Angry
         
     }    
-    public Mood targetMood;
+    private Mood targetMood;
+    public Mood TargetMood
+    {
+        get => targetMood;
+        set
+        {
+            targetMood = value;
+            if (targetMoodText != null)
+            {
+                targetMoodText.text = targetMood.ToString();
+            }
+        }
+    }
     [SerializeField] private float _progressValue;
     public float progressValue
     {

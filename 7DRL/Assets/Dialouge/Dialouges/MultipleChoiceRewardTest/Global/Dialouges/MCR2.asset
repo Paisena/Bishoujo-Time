@@ -34,4 +34,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: dfee132fad8795a40966aa5eac0d8979, type: 2}
   <PickRewardRandom>k__BackingField: 0
   <PickWhichReward>k__BackingField: 0
-  <PickRewardBasedOnChoice>k__BackingField: 0
+  <PickRewardBasedOnChoice>k__BackingField: 1

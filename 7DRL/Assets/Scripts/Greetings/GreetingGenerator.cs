@@ -69,7 +69,7 @@ public class GrettingGenerator : MonoBehaviour
     public bool CanSayGreeting(GreetingSO greeting)
     {
         Target target = TargetManager.Instance.currentTarget;
-        if (greeting.targetMood == target.targetMood && greeting.minProgressMeter < target.progressValue && greeting.maxProgressMeter >= target.progressValue)
+        if (greeting.targetMood == target.TargetMood && greeting.minProgressMeter < target.progressValue && greeting.maxProgressMeter >= target.progressValue)
         {
             //print("CAN say greeting " + greeting.greetingText + " because the target mood requirement is " + greeting.targetMood + " and the current target mood is " + target.targetMood + " and the min progress meter requirement is " + greeting.minProgressMeter + " and the current progress meter is " + target.progressValue + " and the max progress meter requirement is " + greeting.maxProgressMeter + " and the current progress meter is " + target.progressValue);
             return true;

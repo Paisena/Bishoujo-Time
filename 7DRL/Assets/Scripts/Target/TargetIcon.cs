@@ -13,7 +13,7 @@ public class TargetIcon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
         // reveal pop up
         if (popUpPrefab != null && popUpInstance == null)
         {
-            popUpInstance = Instantiate(popUpPrefab, transform.position + 270 * Vector3.up, Quaternion.identity, transform);
+            popUpInstance = Instantiate(popUpPrefab, transform.position + 150 * Vector3.up, Quaternion.identity, transform);
         }
 
         TextMeshProUGUI popUpText = popUpInstance.GetComponentInChildren<TextMeshProUGUI>();

@@ -22,7 +22,7 @@ public class TargetManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        moodEventText.SetMoodEventText(currentTarget.targetMood.ToString());
+        moodEventText.SetMoodEventText(currentTarget.TargetMood.ToString());
     }
 
     void OnEnable()
@@ -53,11 +53,11 @@ public class TargetManager : MonoBehaviour
         {
             print("mood event triggered");
             int moodEventIndex = Random.Range(0, moodEvents.Length);
-            currentTarget.targetMood = moodEvents[moodEventIndex].MoodChangeTo;
+            currentTarget.TargetMood = moodEvents[moodEventIndex].MoodChangeTo;
 
             // Trigger the dialogue for the mood event
             DialogueTextManager.Instance.StartDialouge(moodEvents[moodEventIndex].dialouge);
-            moodEventText.SetMoodEventText(currentTarget.targetMood.ToString());
+            moodEventText.SetMoodEventText(currentTarget.TargetMood.ToString());
             yield return new WaitUntil(() => DialogueTextManager.Instance.IsInDialouge == false);
             LocationManager.Instance.EnableTrainingHUD();
         }

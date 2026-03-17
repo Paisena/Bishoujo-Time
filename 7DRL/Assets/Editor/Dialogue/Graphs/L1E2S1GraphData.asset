@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0339091ce14bb0640878a4b65c6c98e9, type: 3}
+  m_Name: L1E2S1GraphData
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DialougeGraphSavaDataSO
+  <FileName>k__BackingField: L1E2S1
+  <Nodes>k__BackingField:
+  - <Name>k__BackingField: L1E2S1,1
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: You are lifting heavy at the gym and you can't push the
+      weight up
+    <ID>k__BackingField: 34d1e14b-9aae-4358-82cd-ceca3ea2d3f9
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 2c6ffd87-a72e-4152-81b3-f1d8e3688326
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -2081.6, y: -28.8}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L1E2S1,2
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Help....
+    <ID>k__BackingField: 2c6ffd87-a72e-4152-81b3-f1d8e3688326
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 15a00072-d04f-4963-a815-ab6089d2976f
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1700.8, y: 7.200001}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L1E2S1,3
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Suddenly, the weight gets lifted off of you.
+    <ID>k__BackingField: 15a00072-d04f-4963-a815-ab6089d2976f
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 7f1c6ce1-ca87-4183-9ab1-767ed52c420c
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -2064.8, y: 273.6}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L1E2S1,5
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: 
+    <ID>k__BackingField: 6966cbf4-ac71-44bb-9ecc-d0454a3b43ea
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Your a life saver
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 0749a1aa-28ed-42e0-a41a-2ea968993012
+    - <Text>k__BackingField: I didn't need help
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: e1bc5efb-c191-4bbd-a9b7-6cb6576f3939
+    <DialougeType>k__BackingField: 1
+    <Position>k__BackingField: {x: -1428, y: 288}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L1E2S1,4
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Are you ok?
+    <ID>k__BackingField: 7f1c6ce1-ca87-4183-9ab1-767ed52c420c
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 6966cbf4-ac71-44bb-9ecc-d0454a3b43ea
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1759.2001, y: 312}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L1E2S1,6
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Thanks a bunch, your a life saver.
+    <ID>k__BackingField: 0749a1aa-28ed-42e0-a41a-2ea968993012
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 05778e8f-81d6-49d8-9611-753b6d82fbd9
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -982.39996, y: 214.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L1E2S1,8
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField:
+    - {fileID: 11400000, guid: 4b16b049a4fdfd94c98df3b0781f8188, type: 2}
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Mood changed to Happy
+    <ID>k__BackingField: fc588346-dda4-4ee6-a51c-a68498c04622
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -354.4, y: 214.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L1E2S1,9
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: I didn't need help, I got it
+    <ID>k__BackingField: e1bc5efb-c191-4bbd-a9b7-6cb6576f3939
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 75c660cb-a9e5-481d-af97-4d8ee821818b
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -981.6, y: 534.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L1E2S1,11
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField:
+    - {fileID: 11400000, guid: dbc9daefaaad7b348b0d3721c40785e0, type: 2}
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Mood changed to sad
+    <ID>k__BackingField: 4643a36b-ae27-4097-9f3f-86362a88f7a1
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -330.4, y: 534.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L1E2S1,10
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Oh... sorry.
+    <ID>k__BackingField: 75c660cb-a9e5-481d-af97-4d8ee821818b
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 4643a36b-ae27-4097-9f3f-86362a88f7a1
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -686.39996, y: 534.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L1E2S1,7
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: He he he, no problem.
+    <ID>k__BackingField: 05778e8f-81d6-49d8-9611-753b6d82fbd9
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: fc588346-dda4-4ee6-a51c-a68498c04622
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -686.39996, y: 214.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  <OldUngroupedNodeNames>k__BackingField:
+  - L1E2S1,1
+  - L1E2S1,2
+  - L1E2S1,3
+  - L1E2S1,5
+  - L1E2S1,4
+  - L1E2S1,6
+  - L1E2S1,8
+  - L1E2S1,9
+  - L1E2S1,11
+  - L1E2S1,10
+  - L1E2S1,7
