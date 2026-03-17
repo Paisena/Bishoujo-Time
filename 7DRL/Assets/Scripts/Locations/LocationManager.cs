@@ -24,6 +24,7 @@ public class LocationManager : MonoBehaviour
     public GameObject TimeObject;
     public GameObject MoodObject;
     public GameObject MoodChangeObject;
+    public GameObject CharacterIconObject;
 
     public DialougeSO[] StageOpeningDialogue;
     public DialougeSO[] ConfessionDialogue;
@@ -110,7 +111,6 @@ public class LocationManager : MonoBehaviour
     {
         // This function will be called when the player clicks on a location button, it will start the training for that location.
         // You can add any additional functionality you want here, such as loading a new scene or displaying a new UI panel.
-        Debug.Log("Starting training for " + location.LocationName);
 
         if (location.currentTrainingEvent != null)
         {
@@ -139,6 +139,8 @@ public class LocationManager : MonoBehaviour
         Destroy(currentEventIcon);
         onTrainingEnded?.Invoke();
         yield return new WaitUntil(() => TargetManager.Instance.moodEventCheckFailed == true);
+        print("Turn is over, invoking onTurnOver event...");
+        TargetManager.Instance.moodEventCheckFailed = false;
         onTurnOver?.Invoke();
     }
 
@@ -192,7 +194,16 @@ public class LocationManager : MonoBehaviour
         DisableTrainingStats();
         DisableTrainingYear();
         DisableTrainingMood();
+        DisableCharacterIcon();
         //DisableMoodChange();
+    }
+
+    public void DisableCharacterIcon()
+    {
+        if (CharacterIconObject != null)
+        {
+            CharacterIconObject.SetActive(false);
+        }
     }
 
     public void DisableMoodChange()
@@ -243,7 +254,16 @@ public class LocationManager : MonoBehaviour
         EnableTrainingStats();
         EnableTrainingYear();
         EnableTrainingMood();
+        EnableCharacterIcon();
         //EnableMoodChange();
+    }
+
+    public void EnableCharacterIcon()
+    {
+        if (CharacterIconObject != null)
+        {
+            CharacterIconObject.SetActive(true);
+        }   
     }
     
     public void EnableMoodChange()

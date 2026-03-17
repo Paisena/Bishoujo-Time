@@ -1,0 +1,310 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0339091ce14bb0640878a4b65c6c98e9, type: 3}
+  m_Name: TutorialGraphData
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DialougeGraphSavaDataSO
+  <FileName>k__BackingField: Tutorial
+  <Nodes>k__BackingField:
+  - <Name>k__BackingField: Tut1
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: 'Welcome to you first year of college! '
+    <ID>k__BackingField: 4fc0fe22-6453-4443-a09f-ab2b67d26239
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: a1d56d4d-6208-4735-97da-b6c830d995f7
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -776.8, y: -1247.2}
+    <Requirements>k__BackingField: 
+  - <Name>k__BackingField: Tut3
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: It all begins as a regular day like any other...
+    <ID>k__BackingField: 59fb4c15-0ec4-4fcd-a879-0345663e5f33
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: e9644536-3eb4-4a84-ac5f-ccff0625e0e0
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -776.8, y: -1098.4}
+    <Requirements>k__BackingField: 
+  - <Name>k__BackingField: Tut4
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: '*Phew* First class of the day done.'
+    <ID>k__BackingField: e9644536-3eb4-4a84-ac5f-ccff0625e0e0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 4acbf615-bd64-4f1e-91ac-33630204cf56
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -776.8, y: -808.8}
+    <Requirements>k__BackingField: 
+  - <Name>k__BackingField: Tut9
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Oh lets see...
+    <ID>k__BackingField: 3ec0ae92-e7d4-4f1e-84c0-7079b48e7f9b
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: b3b09bae-9d99-4381-9d1e-2efb912d4fe9
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -394.4, y: -796}
+    <Requirements>k__BackingField: 
+  - <Name>k__BackingField: Tut8
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Do you know where this class is?
+    <ID>k__BackingField: a1f0f182-82a5-454e-9829-9756268d819f
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 3ec0ae92-e7d4-4f1e-84c0-7079b48e7f9b
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -444, y: -1098.4}
+    <Requirements>k__BackingField: 
+  - <Name>k__BackingField: Tut5
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: 'Suddenly, you hear a voice behind you. '
+    <ID>k__BackingField: 4acbf615-bd64-4f1e-91ac-33630204cf56
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 155d6874-4393-4784-b31b-38bc43ff2bf4
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -776.8, y: -526.4}
+    <Requirements>k__BackingField: 
+  - <Name>k__BackingField: Tut6
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Errmmmm... excuse me mister?
+    <ID>k__BackingField: 155d6874-4393-4784-b31b-38bc43ff2bf4
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 9eb8a0b2-d88b-43b9-b3a9-f87800b71b58
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -776.8, y: -239.2}
+    <Requirements>k__BackingField: 
+  - <Name>k__BackingField: Tut7
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: You turn around and see a beautiful woman standing in
+      front of you.
+    <ID>k__BackingField: 9eb8a0b2-d88b-43b9-b3a9-f87800b71b58
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: a1f0f182-82a5-454e-9829-9756268d819f
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -776.8, y: 51.199997}
+    <Requirements>k__BackingField: 
+  - <Name>k__BackingField: Tut10
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Hey, we're in the same class!
+    <ID>k__BackingField: b3b09bae-9d99-4381-9d1e-2efb912d4fe9
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: a56bde9a-1a90-4e91-822a-19b37202bf5f
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -363.19998, y: -504.8}
+    <Requirements>k__BackingField: 
+  - <Name>k__BackingField: Tut11
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: That sounds great. It's nice to meet you!
+    <ID>k__BackingField: a56bde9a-1a90-4e91-822a-19b37202bf5f
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: bb9145e5-1967-43a9-947a-d2c8da230836
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -331.19998, y: -212}
+    <Requirements>k__BackingField: 
+  - <Name>k__BackingField: Tut12
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Thus starts your journey.
+    <ID>k__BackingField: bb9145e5-1967-43a9-947a-d2c8da230836
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 76f15bd0-c030-4e52-b4f1-9fdb185ff603
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -276.8, y: 76.8}
+    <Requirements>k__BackingField: 
+  - <Name>k__BackingField: Tut13
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Now begins the tutorial.
+    <ID>k__BackingField: 76f15bd0-c030-4e52-b4f1-9fdb185ff603
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 07517ab3-6fc6-4887-a401-bee5be4609bd
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -4, y: -1058.4}
+    <Requirements>k__BackingField: 
+  - <Name>k__BackingField: Tut14
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: You must train your skills to impress the girl of your
+      dreams!
+    <ID>k__BackingField: 07517ab3-6fc6-4887-a401-bee5be4609bd
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: cca214f3-487d-4809-b712-a9388d365f98
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 62.4, y: -769.6}
+    <Requirements>k__BackingField: 
+  - <Name>k__BackingField: Tut15
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Each location trains one of the four skills.
+    <ID>k__BackingField: cca214f3-487d-4809-b712-a9388d365f98
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: f71cf8ce-3010-492b-8c79-67f833d2022b
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 91.2, y: -457.6}
+    <Requirements>k__BackingField: 
+  - <Name>k__BackingField: Tut16
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: And sometiems, special events can occur which give special
+      rewards and help progress your relationship with the girl!
+    <ID>k__BackingField: f71cf8ce-3010-492b-8c79-67f833d2022b
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: af3da679-6859-4b80-a956-cc8cf07d269f
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 91.2, y: -156.8}
+    <Requirements>k__BackingField: 
+  - <Name>k__BackingField: Tut17
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: By the end of your school career you must confess your
+      feelings.
+    <ID>k__BackingField: af3da679-6859-4b80-a956-cc8cf07d269f
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 00371529-6191-45b0-9c91-d41e281c376e
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 91.2, y: 128.8}
+    <Requirements>k__BackingField: 
+  - <Name>k__BackingField: Tut18
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Make sure you have trained for that moment!
+    <ID>k__BackingField: 00371529-6191-45b0-9c91-d41e281c376e
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 122.399994, y: 391.2}
+    <Requirements>k__BackingField: 
+  - <Name>k__BackingField: Tut2
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Thus begins your new life of learning, adventure, and
+      romance!
+    <ID>k__BackingField: a1d56d4d-6208-4735-97da-b6c830d995f7
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 59fb4c15-0ec4-4fcd-a879-0345663e5f33
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1144.8, y: -1262.4}
+    <Requirements>k__BackingField: 
+  <OldUngroupedNodeNames>k__BackingField:
+  - Tut1
+  - Tut3
+  - Tut4
+  - Tut9
+  - Tut8
+  - Tut5
+  - Tut6
+  - Tut7
+  - Tut10
+  - Tut11
+  - Tut12
+  - Tut13
+  - Tut14
+  - Tut15
+  - Tut16
+  - Tut17
+  - Tut18
+  - Tut2

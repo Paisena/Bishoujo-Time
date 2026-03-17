@@ -61,6 +61,8 @@ public class TargetManager : MonoBehaviour
             yield return new WaitUntil(() => DialogueTextManager.Instance.IsInDialouge == false);
             LocationManager.Instance.EnableTrainingHUD();
         }
+        print("mood event check over, setting moodEventCheckFailed to false and invoking onMoodEventOver event...");
+        moodEventCheckFailed = true;
         onMoodEventOver?.Invoke();
     }
 

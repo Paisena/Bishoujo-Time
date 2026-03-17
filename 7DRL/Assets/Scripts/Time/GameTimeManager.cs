@@ -42,7 +42,6 @@ public class GameTimeManager : MonoBehaviour
     }
     private void ProgressTime()
     {
-        print("Progressing time");
         gameTime.CurrentTurn++; // just update it for now, will probably have to add more stuff later
         string date = gameTime.TranslateToTimeUnit();
         UpdateTimeText(date);

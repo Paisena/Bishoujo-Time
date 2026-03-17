@@ -13,24 +13,24 @@ public class TargetIcon : MonoBehaviour, IPointerEnterHandler, IPointerExitHandl
         // reveal pop up
         if (popUpPrefab != null && popUpInstance == null)
         {
-            popUpInstance = Instantiate(popUpPrefab, transform.position, Quaternion.identity, transform);
+            popUpInstance = Instantiate(popUpPrefab, transform.position + 270 * Vector3.up, Quaternion.identity, transform);
         }
 
         TextMeshProUGUI popUpText = popUpInstance.GetComponentInChildren<TextMeshProUGUI>();
         if (popUpText != null)
         {
-            popUpText.text = greetingGenerator.GenerateGreeting();
+            popUpText.text = greetingGenerator.GetGreeting();
         }
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
         // hide pop up
-        // if (popUpInstance != null)
-        // {
-        //     Destroy(popUpInstance);
-        //     popUpInstance = null;
-        // }
+        if (popUpInstance != null)
+        {
+            Destroy(popUpInstance);
+            popUpInstance = null;
+        }
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

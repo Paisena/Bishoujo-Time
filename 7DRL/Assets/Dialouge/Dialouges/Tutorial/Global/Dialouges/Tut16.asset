@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d145281873616314eabf77c7718bad03, type: 3}
+  m_Name: Tut16
+  m_EditorClassIdentifier: Assembly-CSharp::DialougeSO
+  <DialougeName>k__BackingField: Tut16
+  <CharacterName>k__BackingField: 
+  <CharacterIcon>k__BackingField: {fileID: 0}
+  <Text>k__BackingField: And sometiems, special events can occur which give special
+    rewards and help progress your relationship with the girl!
+  <Choices>k__BackingField:
+  - <Name>k__BackingField: 
+    <Text>k__BackingField: Next Dialouge
+    <Requirements>k__BackingField: 
+    <NextDialouge>k__BackingField: {fileID: 11400000, guid: 4c3b7a9d9e2662d47abd5f3b4ea96045, type: 2}
+  <DialougeTypes>k__BackingField: 0
+  <IsStartingDialouge>k__BackingField: 0
+  reward: []
+  <PickRewardRandom>k__BackingField: 0
+  <PickWhichReward>k__BackingField: 0

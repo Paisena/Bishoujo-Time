@@ -140,16 +140,16 @@ public class DialogueTextManager : MonoBehaviour
         if (currentDialouge.Choices.Count == 1 && !string.IsNullOrEmpty(currentDialouge.Choices[0].Requirements))
         {
             float progressValue = ChoiceDataParser.GetProgressValue(currentDialouge.Choices[0].Requirements);
-            print("Progress value from requirements: " + progressValue);
+            //print("Progress value from requirements: " + progressValue);
             if (progressValue != 0f)
             {
                 // if this choice has a progress requirement, increase the progress meter by that amount
                 TargetManager.Instance.ChangeProgressMeter(progressValue);
-                print("Progress Meter Increased by: " + progressValue);
+                //print("Progress Meter Increased by: " + progressValue);
             }
             else
             {
-                print("No progress value to increase");
+                //print("No progress value to increase");
             }
             // play animation
 

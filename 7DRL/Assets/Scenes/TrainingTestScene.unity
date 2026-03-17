@@ -1865,8 +1865,9 @@ MonoBehaviour:
   TimeObject: {fileID: 1891529131}
   MoodObject: {fileID: 1250226566}
   MoodChangeObject: {fileID: 1571695011}
+  CharacterIconObject: {fileID: 1324006310}
   StageOpeningDialogue:
-  - {fileID: 11400000, guid: d8bde96c0b8d744499f3cc810466aeb7, type: 2}
+  - {fileID: 11400000, guid: ef454ab11e493bb47a36dd7dd48f6ebd, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   ConfessionDialogue:
@@ -4290,6 +4291,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 18676230e9fdafc4182ae96b4f207489, type: 2}
   - {fileID: 11400000, guid: effae34c0d6b0c84fa8b29cb92489152, type: 2}
   - {fileID: 11400000, guid: 33ee290f70a8c5143b9b83662f4942f2, type: 2}
+  currentGreeting: 
 --- !u!1 &1442410622
 GameObject:
   m_ObjectHideFlags: 0
