@@ -15,7 +15,7 @@ MonoBehaviour:
   <DialougeName>k__BackingField: ME3,1
   <CharacterName>k__BackingField: 
   <CharacterIcon>k__BackingField: {fileID: 0}
-  <Text>k__BackingField: I was angry, but now I am happy!
+  <Text>k__BackingField: I was sad , but now I am angry!
   <Choices>k__BackingField:
   - <Name>k__BackingField: 
     <Text>k__BackingField: Next Dialouge
@@ -26,3 +26,4 @@ MonoBehaviour:
   reward: []
   <PickRewardRandom>k__BackingField: 0
   <PickWhichReward>k__BackingField: 0
+  <PickRewardBasedOnChoice>k__BackingField: 0

@@ -53,7 +53,10 @@ public class TargetManager : MonoBehaviour
         {
             print("mood event triggered");
             int moodEventIndex = Random.Range(0, moodEvents.Length);
-            currentTarget.TargetMood = moodEvents[moodEventIndex].MoodChangeTo;
+            if (currentTarget.TargetMood == moodEvents[moodEventIndex].MoodChangeFrom)
+            {
+                currentTarget.TargetMood = moodEvents[moodEventIndex].MoodChangeTo;
+            }
 
             // Trigger the dialogue for the mood event
             DialogueTextManager.Instance.StartDialouge(moodEvents[moodEventIndex].dialouge);

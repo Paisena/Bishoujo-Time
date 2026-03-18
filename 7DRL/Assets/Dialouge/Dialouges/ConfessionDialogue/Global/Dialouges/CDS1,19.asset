@@ -23,11 +23,11 @@ MonoBehaviour:
     <NextDialouge>k__BackingField: {fileID: 11400000, guid: a26b2eed125105d4c86c8fdba9dc0b10, type: 2}
   - <Name>k__BackingField: 
     <Text>k__BackingField: '*Flex Muscle*'
-    <Requirements>k__BackingField: 
+    <Requirements>k__BackingField: statOne:50
     <NextDialouge>k__BackingField: {fileID: 11400000, guid: f22c034f777b14b4a894b4942b4c8c9d, type: 2}
   - <Name>k__BackingField: 
     <Text>k__BackingField: Say another fact
-    <Requirements>k__BackingField: 
+    <Requirements>k__BackingField: statTwo:50
     <NextDialouge>k__BackingField: {fileID: 11400000, guid: f6fb829dac1d2fe4ab5e20b4ba8a6c99, type: 2}
   <DialougeTypes>k__BackingField: 1
   <IsStartingDialouge>k__BackingField: 0

@@ -25,6 +25,10 @@ public class TrainingEventManager : MonoBehaviour
 
     public void GenerateEventLocation()
     {
+        foreach (Location location in LocationManager.Instance.CurrentLocations)
+        {
+            location.currentTrainingEvent = null;
+        }
         // roll to see if an event will occur
         int eventRoll = Random.Range(0, 100);
         if (eventRoll >= eventChance) 

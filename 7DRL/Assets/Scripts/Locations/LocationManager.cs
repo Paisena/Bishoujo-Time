@@ -142,6 +142,7 @@ public class LocationManager : MonoBehaviour
         print("Turn is over, invoking onTurnOver event...");
         TargetManager.Instance.moodEventCheckFailed = false;
         onTurnOver?.Invoke();
+        
     }
 
     public void EndTraining()

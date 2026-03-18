@@ -16,4 +16,4 @@ MonoBehaviour:
   dialouge: {fileID: 11400000, guid: 89a97f859ca0fac41aa5d3e9a29b5d79, type: 2}
   WhatStage: 0
   MoodChangeTo: 2
-  MoodChangeFrom: 0
+  MoodChangeFrom: 1
