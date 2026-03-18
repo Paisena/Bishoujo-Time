@@ -1,5 +1,6 @@
 using System;
 using TMPro;
+using Unity.VectorGraphics;
 using UnityEngine;
 
 public class Target : MonoBehaviour
@@ -38,8 +39,14 @@ public class Target : MonoBehaviour
             _progressValue = value;
 
             float delta = progressValue - oldValue;
+            print($"Progress value changed by {delta}, new value: {progressValue}");
 
-            onProgressValueChanged?.Invoke(delta);
+            onProgressValueChanged?.Invoke(progressValue);
+
+            if (progressValue >= 1)
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene("WinScene");
+            }
 
         }
     }

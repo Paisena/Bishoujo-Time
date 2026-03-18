@@ -1,0 +1,311 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0339091ce14bb0640878a4b65c6c98e9, type: 3}
+  m_Name: L4S1E1GraphData
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DialougeGraphSavaDataSO
+  <FileName>k__BackingField: L4S1E1
+  <Nodes>k__BackingField:
+  - <Name>k__BackingField: L4S1E1,1
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: At the store.
+    <ID>k__BackingField: 0998255c-3cc8-491d-815a-3cd935d40c46
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 08d90edb-8932-49bb-8950-4c8d56f5cb13
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -2288, y: 439.2}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L4S1E1,2
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Hmmm... I wonder which set of clothes I should get.
+    <ID>k__BackingField: 08d90edb-8932-49bb-8950-4c8d56f5cb13
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Set 1
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: ba00fb05-a284-41d0-9541-33253d417fe0
+    - <Text>k__BackingField: Set 2
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 5e93c97c-d796-4d85-a95a-3c73b7ae8829
+    <DialougeType>k__BackingField: 1
+    <Position>k__BackingField: {x: -1967.2001, y: 439.2}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L4S1E1,3
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: I guess I'll get these
+    <ID>k__BackingField: ba00fb05-a284-41d0-9541-33253d417fe0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: c0403b3b-6c34-4908-8804-c69807ea4fe7
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1628.8, y: 372.8}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L4S1E1,4
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: The next day
+    <ID>k__BackingField: c0403b3b-6c34-4908-8804-c69807ea4fe7
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 4b6671dd-aa7d-4424-8981-34b0ebb9b68f
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1337.6001, y: 347.2}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L4S1E1,5
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: I'm so glad the teacher let us out early today!
+    <ID>k__BackingField: 4b6671dd-aa7d-4424-8981-34b0ebb9b68f
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: cd672559-0ecc-49fd-92aa-dd863ddad5cd
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -982.39996, y: 348.8}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L4S1E1,6
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: I got something to do right now so I will see you later
+      mister!
+    <ID>k__BackingField: cd672559-0ecc-49fd-92aa-dd863ddad5cd
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 9a5de102-4ee1-4cdd-9505-adde121efd3e
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -672, y: 348.8}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L4S1E1,7
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Cya later!
+    <ID>k__BackingField: 9a5de102-4ee1-4cdd-9505-adde121efd3e
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: f5d2431b-e0cf-4650-9267-35a80f144ab2
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -271.19998, y: 348.8}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L4S1E1,8
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Right before she leaves she pauses for a moment
+    <ID>k__BackingField: f5d2431b-e0cf-4650-9267-35a80f144ab2
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 8fd5543f-9ac8-4203-af41-4a1d38b357b8
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 61.600002, y: 348.8}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L4S1E1,9
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Actually, I do have soemthing to say.
+    <ID>k__BackingField: 8fd5543f-9ac8-4203-af41-4a1d38b357b8
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 4c3edd31-b0d3-4779-ad0c-062290d264df
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 397.6, y: 348.8}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L4S1E1,10
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: This emo outfit you have.
+    <ID>k__BackingField: 4c3edd31-b0d3-4779-ad0c-062290d264df
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: aa6bdb01-aca5-44be-959a-05caea6e81fd
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 748, y: 348.8}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L4S1E1,11
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Might not be it....
+    <ID>k__BackingField: aa6bdb01-aca5-44be-959a-05caea6e81fd
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1089.6, y: 348.8}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L4S1E1,12
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: I Guess I'll get these
+    <ID>k__BackingField: 5e93c97c-d796-4d85-a95a-3c73b7ae8829
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: bf71f1f8-9723-4594-8227-311fcb116cde
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1610.4, y: 720}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L4S1E1,13
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: The next day
+    <ID>k__BackingField: bf71f1f8-9723-4594-8227-311fcb116cde
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 901866ff-c7aa-49c1-81a3-7a8fe00fcbe9
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1255.2001, y: 720}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L4S1E1,14
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Another easy class!
+    <ID>k__BackingField: 901866ff-c7aa-49c1-81a3-7a8fe00fcbe9
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: c7bb497c-9069-4d91-bcab-835be37864af
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -944.8, y: 720}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L4S1E1,15
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: I have to say...
+    <ID>k__BackingField: c7bb497c-9069-4d91-bcab-835be37864af
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 6580fedd-50fb-4ef8-95e2-dcbbedeec000
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -590.39996, y: 720}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L4S1E1,16
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Your outfit was quite nice today!
+    <ID>k__BackingField: 6580fedd-50fb-4ef8-95e2-dcbbedeec000
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: a8ef7143-64c3-4ded-a29c-63dc91dc98cd
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -272, y: 720}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L4S1E1,17
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField:
+    - {fileID: 11400000, guid: e16ab4b57e292db47b35ec6fe53a9273, type: 2}
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Gain 15 style
+    <ID>k__BackingField: a8ef7143-64c3-4ded-a29c-63dc91dc98cd
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 19.2, y: 720}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  <OldUngroupedNodeNames>k__BackingField:
+  - L4S1E1,1
+  - L4S1E1,2
+  - L4S1E1,3
+  - L4S1E1,4
+  - L4S1E1,5
+  - L4S1E1,6
+  - L4S1E1,7
+  - L4S1E1,8
+  - L4S1E1,9
+  - L4S1E1,10
+  - L4S1E1,11
+  - L4S1E1,12
+  - L4S1E1,13
+  - L4S1E1,14
+  - L4S1E1,15
+  - L4S1E1,16
+  - L4S1E1,17

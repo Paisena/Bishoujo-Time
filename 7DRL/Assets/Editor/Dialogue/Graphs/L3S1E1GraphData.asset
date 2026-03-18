@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0339091ce14bb0640878a4b65c6c98e9, type: 3}
+  m_Name: L3S1E1GraphData
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DialougeGraphSavaDataSO
+  <FileName>k__BackingField: L3S1E1
+  <Nodes>k__BackingField:
+  - <Name>k__BackingField: L3S1E1,1
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: At a club room
+    <ID>k__BackingField: 2cdf241c-b74b-4972-80b8-742021884aa4
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 2680db39-000a-45bb-b2a5-fbcbfb6cd330
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1812.8, y: 106.399994}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L3S1E1,2
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Hi ya mister!
+    <ID>k__BackingField: 2680db39-000a-45bb-b2a5-fbcbfb6cd330
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 9bd31496-efea-4ac9-84ba-3c5f47fd841a
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1487.2001, y: 106.399994}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L3S1E1,3
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Didn't expect you to be interested in this club.
+    <ID>k__BackingField: 9bd31496-efea-4ac9-84ba-3c5f47fd841a
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: ae9f3318-9a77-4a1c-8b0e-b05d64aace9b
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1199.2001, y: 106.399994}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L3S1E1,4
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: What club
+    <ID>k__BackingField: ae9f3318-9a77-4a1c-8b0e-b05d64aace9b
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Newspaper club
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 02a8141e-b832-4143-86e7-0b0a75db3c81
+    - <Text>k__BackingField: Hiking club
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: c38e9a8e-ae64-415d-89cb-a9db10666de6
+    <DialougeType>k__BackingField: 1
+    <Position>k__BackingField: {x: -892, y: 106.399994}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L3S1E1,5
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: You know I love reading them newspapers
+    <ID>k__BackingField: 02a8141e-b832-4143-86e7-0b0a75db3c81
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: f6e7fe45-92f4-4733-bad8-d9e357efd4c6
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -424, y: -4.799999}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L3S1E1,6
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Oh nice!
+    <ID>k__BackingField: f6e7fe45-92f4-4733-bad8-d9e357efd4c6
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 74ac8076-c293-4864-aa85-4edf686070d0
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -87.200005, y: -4.799999}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L3S1E1,7
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Have you read the latest edition of the York Times?
+    <ID>k__BackingField: 74ac8076-c293-4864-aa85-4edf686070d0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 4f779277-4d00-4fc9-b1a2-0c9c3002fdbd
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 253.59999, y: -4.799999}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L3S1E1,8
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: ...
+    <ID>k__BackingField: 4f779277-4d00-4fc9-b1a2-0c9c3002fdbd
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: d6cee066-c545-4068-a9c8-dfaa98c0ce2e
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 614.4, y: -4.799999}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L3S1E1,10
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: I've been getting into hiking so I can go outside
+    <ID>k__BackingField: c38e9a8e-ae64-415d-89cb-a9db10666de6
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 68d99ac3-5152-45c6-8ad7-8a1604fdc379
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -424, y: 352.8}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L3S1E1,11
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Ah thats great yea.
+    <ID>k__BackingField: 68d99ac3-5152-45c6-8ad7-8a1604fdc379
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 304958d4-668d-421f-97d7-a7286e218a21
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -87.200005, y: 352.8}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L3S1E1,13
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField:
+    - {fileID: 11400000, guid: d81e20d3d31c62b478e71be157419470, type: 2}
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Gained 15 charisma
+    <ID>k__BackingField: cf4ce236-eefa-4a5f-9efa-3642d3f5e780
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 587.2, y: 352.8}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L3S1E1,12
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: I thought hiking club meant like football snapping...
+    <ID>k__BackingField: 304958d4-668d-421f-97d7-a7286e218a21
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: cf4ce236-eefa-4a5f-9efa-3642d3f5e780
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 220.8, y: 352.8}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: L3S1E1,9
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: ...
+    <ID>k__BackingField: d6cee066-c545-4068-a9c8-dfaa98c0ce2e
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 934.4, y: -4.799999}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  <OldUngroupedNodeNames>k__BackingField:
+  - L3S1E1,1
+  - L3S1E1,2
+  - L3S1E1,3
+  - L3S1E1,4
+  - L3S1E1,5
+  - L3S1E1,6
+  - L3S1E1,7
+  - L3S1E1,8
+  - L3S1E1,10
+  - L3S1E1,11
+  - L3S1E1,13
+  - L3S1E1,12
+  - L3S1E1,9

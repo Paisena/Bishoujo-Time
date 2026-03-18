@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d145281873616314eabf77c7718bad03, type: 3}
+  m_Name: CDS1,25
+  m_EditorClassIdentifier: Assembly-CSharp::DialougeSO
+  <DialougeName>k__BackingField: CDS1,25
+  <CharacterName>k__BackingField: 
+  <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+  <Text>k__BackingField: What will you say
+  <Choices>k__BackingField:
+  - <Name>k__BackingField: 
+    <Text>k__BackingField: '"Will you go out with me"'
+    <Requirements>k__BackingField: 
+    <NextDialouge>k__BackingField: {fileID: 0}
+  - <Name>k__BackingField: 
+    <Text>k__BackingField: '*Flex Muscle*'
+    <Requirements>k__BackingField: 
+    <NextDialouge>k__BackingField: {fileID: 11400000, guid: f22c034f777b14b4a894b4942b4c8c9d, type: 2}
+  - <Name>k__BackingField: 
+    <Text>k__BackingField: Tell your last interesting fact
+    <Requirements>k__BackingField: 
+    <NextDialouge>k__BackingField: {fileID: 11400000, guid: df244604f8e91524e8ee6cce0c2db01f, type: 2}
+  <DialougeTypes>k__BackingField: 1
+  <IsStartingDialouge>k__BackingField: 0
+  reward: []
+  <PickRewardRandom>k__BackingField: 0
+  <PickWhichReward>k__BackingField: 0
+  <PickRewardBasedOnChoice>k__BackingField: 0

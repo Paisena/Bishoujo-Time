@@ -1,0 +1,561 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0339091ce14bb0640878a4b65c6c98e9, type: 3}
+  m_Name: ConfessionDialogueGraphData
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::DialougeGraphSavaDataSO
+  <FileName>k__BackingField: ConfessionDialogue
+  <Nodes>k__BackingField:
+  - <Name>k__BackingField: CDS1,3
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Lots of sun, lots of smores, and lots of good vibes
+    <ID>k__BackingField: 9f74c10a-7459-4c43-be2d-40e661e07e55
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 4dafb5ae-e1c4-4f5f-a593-37a3e78b1a14
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -4209.5996, y: -446.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,6
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Wait, I have something to tell you.
+    <ID>k__BackingField: 09187870-be41-43d8-89f4-04735f3dbe8e
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: b35f7bcb-049c-488d-9cad-b3f14de115d2
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -3009.6, y: -446.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,4
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Yea, it's been a pretty good trip.
+    <ID>k__BackingField: 4dafb5ae-e1c4-4f5f-a593-37a3e78b1a14
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 5814fb48-71b2-410f-9d78-80147d318f75
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -3883.2, y: -446.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,5
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Welp, now that everyone else has left, it seems like it's
+      time for me to take my leave.
+    <ID>k__BackingField: 5814fb48-71b2-410f-9d78-80147d318f75
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 09187870-be41-43d8-89f4-04735f3dbe8e
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -3572.8, y: -446.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,2
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Wow, this beach day was great.
+    <ID>k__BackingField: 1409d291-0926-4766-9e6c-22f984ae4473
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 9f74c10a-7459-4c43-be2d-40e661e07e55
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -4482.4, y: -446.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,1
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: 0}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: At the beach
+    <ID>k__BackingField: cc20ff0f-cd60-459c-998e-1d121729001c
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 1409d291-0926-4766-9e6c-22f984ae4473
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -4755.1997, y: -446.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,8
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Ever since the first time I laid my eyes on you...
+    <ID>k__BackingField: 4f477790-b846-466e-a941-f6f57e131764
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 5e896309-3387-4773-bea7-6cf720de0725
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -2053.6, y: -1426.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,14
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: '*Flex Muscle*'
+    <ID>k__BackingField: f1dce30e-9da0-464b-bf1a-6c134b7466a4
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: a77b5084-e1a2-40c5-af96-d25a9213f58e
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -2048.8, y: -1105.6}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,17
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Did you know that under certain conditions, sand can produce
+      a low "singing" sound.
+    <ID>k__BackingField: 4bc10932-8980-4ce5-9097-e46dfff61c84
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 23b9da1e-9035-4f63-aebd-9bcd74cacd08
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -2089.6, y: -685.6}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,9
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: 'You have always been the one I''ve wanted this whole
+      time. '
+    <ID>k__BackingField: 5e896309-3387-4773-bea7-6cf720de0725
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 52bd6f86-5fe2-402d-b998-e266a490a2af
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1761.6001, y: -1426.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,10
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Will you go out with me?
+    <ID>k__BackingField: 52bd6f86-5fe2-402d-b998-e266a490a2af
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: f4a6e147-be53-4616-805f-1058022a64f8
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1344, y: -1426.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,11
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: ...
+    <ID>k__BackingField: f4a6e147-be53-4616-805f-1058022a64f8
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: cdbb7001-028f-4163-b700-87662a6804cc
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -976.8, y: -1426.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,13
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Game Over, You Lose
+    <ID>k__BackingField: dd9a3f8c-b0c9-4442-bfa7-a75eb0ab3fba
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -306.4, y: -1426.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,15
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField:
+    - {fileID: 11400000, guid: 8a168913b26cb204db9a8cea209934c9, type: 2}
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: oooo
+    <ID>k__BackingField: a77b5084-e1a2-40c5-af96-d25a9213f58e
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 0a3a63d5-5f54-4b5c-8870-9bc1abe985ea
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1723.2001, y: -1105.6}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,20
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: You want to hear another fact?
+    <ID>k__BackingField: 5b05b9d3-7c52-49dc-afa6-6a5a4673f429
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: b491e6bd-a290-4a04-90cd-dedfc0d82b7a
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -725.6, y: -660}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,21
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Yea yea
+    <ID>k__BackingField: b491e6bd-a290-4a04-90cd-dedfc0d82b7a
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: df65322c-d709-48e1-ac9c-f74b59c43d7e
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -369.59998, y: -660}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,19
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: What to say next
+    <ID>k__BackingField: 74980fea-a51b-4a45-aa6b-06b2836f613a
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: '"Will you go out with me"'
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 4f477790-b846-466e-a941-f6f57e131764
+    - <Text>k__BackingField: '*Flex Muscle*'
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: f1dce30e-9da0-464b-bf1a-6c134b7466a4
+    - <Text>k__BackingField: Say another fact
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 5b05b9d3-7c52-49dc-afa6-6a5a4673f429
+    <DialougeType>k__BackingField: 1
+    <Position>k__BackingField: {x: -1269.6001, y: -660}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,16
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: What next
+    <ID>k__BackingField: 0a3a63d5-5f54-4b5c-8870-9bc1abe985ea
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Will you go out with me
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 4f477790-b846-466e-a941-f6f57e131764
+    - <Text>k__BackingField: '*Flex Msucle*'
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: f1dce30e-9da0-464b-bf1a-6c134b7466a4
+    - <Text>k__BackingField: Tell an interesting fact
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 4bc10932-8980-4ce5-9097-e46dfff61c84
+    <DialougeType>k__BackingField: 1
+    <Position>k__BackingField: {x: -1286.4, y: -1105.6}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,18
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField:
+    - {fileID: 11400000, guid: 8a168913b26cb204db9a8cea209934c9, type: 2}
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Oh I did not know that!
+    <ID>k__BackingField: 23b9da1e-9035-4f63-aebd-9bcd74cacd08
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 74980fea-a51b-4a45-aa6b-06b2836f613a
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1657.6001, y: -660}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,22
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Well, The Playa de Gulpiyuri in Spain is the smallest
+      beach in the world!
+    <ID>k__BackingField: df65322c-d709-48e1-ac9c-f74b59c43d7e
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: df1b0f58-d6ed-413d-b151-66575d9e666e
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -93.600006, y: -660}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,23
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Ooo ooo
+    <ID>k__BackingField: df1b0f58-d6ed-413d-b151-66575d9e666e
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 7c5cd3f7-6ec0-4a83-810c-31d6e405f8e5
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 404.80002, y: -660}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,24
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Very niche and interesting!
+    <ID>k__BackingField: 7c5cd3f7-6ec0-4a83-810c-31d6e405f8e5
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 7a78ce2c-ec6a-4efa-b200-135183cad2b0
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 760, y: -660}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,25
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: What will you say
+    <ID>k__BackingField: 7a78ce2c-ec6a-4efa-b200-135183cad2b0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: '"Will you go out with me"'
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 
+    - <Text>k__BackingField: '*Flex Muscle*'
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: f1dce30e-9da0-464b-bf1a-6c134b7466a4
+    - <Text>k__BackingField: Tell your last interesting fact
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 62258915-8d3b-4045-875a-ec107a9e25d8
+    <DialougeType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1103.2, y: -660}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,27
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: Mole Crabs!
+    <ID>k__BackingField: ff568c8b-f865-42af-8657-2978d74b19e8
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 92fcd31f-9fb2-453f-8bdd-937e0ce3f149
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2170.4, y: -660}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,26
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: And the most common animal found on most beaches are....
+    <ID>k__BackingField: 62258915-8d3b-4045-875a-ec107a9e25d8
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: ff568c8b-f865-42af-8657-2978d74b19e8
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1742.3999, y: -660}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,28
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField:
+    - {fileID: 11400000, guid: 8a168913b26cb204db9a8cea209934c9, type: 2}
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: WOW!
+    <ID>k__BackingField: 92fcd31f-9fb2-453f-8bdd-937e0ce3f149
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2568, y: -660}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,7
+    <CharacterName>k__BackingField: 
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: What will you tell her
+    <ID>k__BackingField: b35f7bcb-049c-488d-9cad-b3f14de115d2
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Will you go out with me
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 4f477790-b846-466e-a941-f6f57e131764
+    - <Text>k__BackingField: '*Flex Muscle*'
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: f1dce30e-9da0-464b-bf1a-6c134b7466a4
+    - <Text>k__BackingField: Tell a interesting fact
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 4bc10932-8980-4ce5-9097-e46dfff61c84
+    - <Text>k__BackingField: Give her a complement
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 3a00145b-9578-4220-9b75-a19a88dedb4d
+    <DialougeType>k__BackingField: 1
+    <Position>k__BackingField: {x: -2668, y: -540.8}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,29
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: I just wanted to say...
+    <ID>k__BackingField: 3a00145b-9578-4220-9b75-a19a88dedb4d
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: 3188b95f-50e2-431d-8f2e-6fc89193b0a0
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -2089.6, y: -304.8}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,12
+    <CharacterName>k__BackingField: Girl
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: ew.
+    <ID>k__BackingField: cdbb7001-028f-4163-b700-87662a6804cc
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: dd9a3f8c-b0c9-4442-bfa7-a75eb0ab3fba
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -652.8, y: -1426.4}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  - <Name>k__BackingField: CDS1,30
+    <CharacterName>k__BackingField: You
+    <CharacterIcon>k__BackingField: {fileID: -7943720702334105097, guid: e3babd2a0d3396448be71b94d807cdaf, type: 3}
+    <Reward>k__BackingField: []
+    <PickRandomReward>k__BackingField: 0
+    <PickWhichReward>k__BackingField: 0
+    <Text>k__BackingField: You look very pretty today
+    <ID>k__BackingField: 3188b95f-50e2-431d-8f2e-6fc89193b0a0
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialouge
+      <Requirements>k__BackingField: 
+      <NodeID>k__BackingField: f4a6e147-be53-4616-805f-1058022a64f8
+    <DialougeType>k__BackingField: 0
+    <Position>k__BackingField: {x: -1744, y: -304.8}
+    <Requirements>k__BackingField: 
+    <PickRewardBasedOnChoice>k__BackingField: 0
+  <OldUngroupedNodeNames>k__BackingField:
+  - CDS1,3
+  - CDS1,6
+  - CDS1,4
+  - CDS1,5
+  - CDS1,2
+  - CDS1,1
+  - CDS1,8
+  - CDS1,14
+  - CDS1,17
+  - CDS1,9
+  - CDS1,10
+  - CDS1,11
+  - CDS1,13
+  - CDS1,15
+  - CDS1,20
+  - CDS1,21
+  - CDS1,19
+  - CDS1,16
+  - CDS1,18
+  - CDS1,22
+  - CDS1,23
+  - CDS1,24
+  - CDS1,25
+  - CDS1,27
+  - CDS1,26
+  - CDS1,28
+  - CDS1,7
+  - CDS1,29
+  - CDS1,12
+  - CDS1,30

@@ -194,7 +194,7 @@ public class LocationManager : MonoBehaviour
         DisableTrainingStats();
         DisableTrainingYear();
         DisableTrainingMood();
-        DisableCharacterIcon();
+        //DisableCharacterIcon();
         //DisableMoodChange();
     }
 
@@ -254,7 +254,7 @@ public class LocationManager : MonoBehaviour
         EnableTrainingStats();
         EnableTrainingYear();
         EnableTrainingMood();
-        EnableCharacterIcon();
+        //EnableCharacterIcon();
         //EnableMoodChange();
     }
 

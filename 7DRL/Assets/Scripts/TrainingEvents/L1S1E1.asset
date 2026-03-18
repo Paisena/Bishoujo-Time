@@ -19,3 +19,6 @@ MonoBehaviour:
   eventStage: 1
   targetMoodRequirement: 0
   locationRequirement: 0
+  eventWeight: 0
+  progressMinRequirement: 0
+  progressMaxRequirement: 1

@@ -10,4 +10,7 @@ public class TrainingEventSO : ScriptableObject
     public int eventStage;
     public Target.Mood targetMoodRequirement;
     public LocationManager.LocationIndex locationRequirement;
+    public float eventWeight;
+    public float progressMinRequirement;
+    public float progressMaxRequirement;
 }

@@ -939,7 +939,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &484374359
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1588,6 +1588,7 @@ MonoBehaviour:
   TextContainer: {fileID: 10343307}
   isDialogueBoxOnScreen: 0
   player: {fileID: 1793379098}
+  isLastDialouge: 0
 --- !u!114 &591728889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1851,6 +1852,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c0ad1c2f2b798ce4594df4a15f7e9e5d, type: 2}
   - {fileID: 11400000, guid: 640983e1339ec664b9511e68e1a989ef, type: 2}
   - {fileID: 11400000, guid: aa89a8155e2dbcb40b1cf1d972455594, type: 2}
+  - {fileID: 11400000, guid: f4c9393d71938d34bbaba4056b91eb29, type: 2}
+  - {fileID: 11400000, guid: 3e985474218141b45aeae2b56080ae5f, type: 2}
   player: {fileID: 1793379098}
   currentStageIndex: 0
   EventIconPrefab: {fileID: 1459118432758001730, guid: 623c9c229c47c4141b5d3c5cbc2f6afc, type: 3}
@@ -1867,11 +1870,11 @@ MonoBehaviour:
   MoodChangeObject: {fileID: 1571695011}
   CharacterIconObject: {fileID: 1324006310}
   StageOpeningDialogue:
-  - {fileID: 11400000, guid: 268c604bfd91bf54bba8f836b933e6e1, type: 2}
+  - {fileID: 11400000, guid: ef454ab11e493bb47a36dd7dd48f6ebd, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   ConfessionDialogue:
-  - {fileID: 11400000, guid: f5f53f6f60f14e84383bcb432437043b, type: 2}
+  - {fileID: 11400000, guid: b53b548a4edd42a43bbe71db3524f9cc, type: 2}
   - {fileID: 0}
   - {fileID: 0}
   isTraining: 0
@@ -4132,7 +4135,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1324006311
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4422,8 +4425,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -609, y: 341}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -571.0183, y: 341}
+  m_SizeDelta: {x: 275.9634, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1445373304
 MonoBehaviour:
@@ -4439,6 +4442,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   progressionText: {fileID: 1445373305}
   target: {fileID: 1440946350}
+  textUpdateDelay: 0.5
 --- !u!114 &1445373305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4461,15 +4465,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Progress: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b94bf005cd13d354a824972a4e31687e, type: 2}
+  m_sharedMaterial: {fileID: 3046440201520865559, guid: b94bf005cd13d354a824972a4e31687e, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

@@ -51,6 +51,7 @@ public class DialogueTextManager : MonoBehaviour
     public static event Action onDialogueStart;
     public static event Action onDialogueEnd;
     public Player player;
+    public bool isLastDialouge = false;
 
     private void Awake() 
     {
@@ -174,6 +175,11 @@ public class DialogueTextManager : MonoBehaviour
         CheckIfSpriteNull();
         CheckIfNameNull();
         StartCoroutine(moveDialogueBox());
+        if (currentDialouge.DialougeName == "CDS1,1")
+        {
+            isLastDialouge = true;
+            print("Starting last dialouge, setting isLastDialouge to true");
+        }
     }
 
     public void StartDialouge(DialougeSO dialouge)
@@ -184,6 +190,10 @@ public class DialogueTextManager : MonoBehaviour
 
     private void NextDialouge()
     {
+        if (currentDialouge.reward != null)
+        {
+            currentDialouge.reward.ForEach(reward => reward.GiveReward(player));
+        }
         if (currentDialouge.Choices[0].NextDialouge == null)
         {
             // end of dialouge
@@ -244,7 +254,7 @@ public class DialogueTextManager : MonoBehaviour
                 float padding = 20f; // adjust this value for more or less padding
                 optionButton.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, textWidth + padding);
                 optionButton.GetComponent<RectTransform>().anchoredPosition += new Vector2(textWidth / 2 - 70f, 0); // move the button to the right based on the new width
-
+                optionButton.GetComponentInChildren<TextMeshProUGUI>().color = Color.white;
 
                 // Check if player has stats for option 
                 if (!string.IsNullOrEmpty(currentDialouge.Choices[i].Requirements))
@@ -252,10 +262,12 @@ public class DialogueTextManager : MonoBehaviour
                     if(DoesPlayerMeetRequirements(currentDialouge.Choices[i].Requirements))
                     {
                         optionButton.enabled = true;
+                        
                     }
                     else
                     {
                         optionButton.enabled = false;
+                        optionButton.GetComponentInChildren<TextMeshProUGUI>().color = Color.grey;
                     }
                 }
                 else
@@ -310,6 +322,11 @@ public class DialogueTextManager : MonoBehaviour
             print("Ending training from dialogue manager");
             LocationManager.Instance.isTraining = false;
             
+        }
+        if(isLastDialouge)
+        {
+            print("Last dialouge ended, loading win scene");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("LoseScene");
         }
     }
 

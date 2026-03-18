@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8272b93dc3d77eb438eb50b775493e52, type: 3}
+  m_Name: L3S1E1
+  m_EditorClassIdentifier: Assembly-CSharp::DialougeContainerSO
+  <FileName>k__BackingField: L3S1E1
+  <Dialouges>k__BackingField:
+  - {fileID: 11400000, guid: df553b9294dd6844483095442451934b, type: 2}
+  - {fileID: 11400000, guid: 3a880646b8e14c94b810d207b4bacb28, type: 2}
+  - {fileID: 11400000, guid: 30ad6b8a6213780479da2564b5f95365, type: 2}
+  - {fileID: 11400000, guid: a659a7a5240fec34ea6f45f5df06a8b7, type: 2}
+  - {fileID: 11400000, guid: e7a74460da25e5b44a29e0008ca11cac, type: 2}
+  - {fileID: 11400000, guid: f7e753bb43a1a9c45bf2cae87841a20e, type: 2}
+  - {fileID: 11400000, guid: 862ca25c7d1ffe241ac59177acbb19dd, type: 2}
+  - {fileID: 11400000, guid: 503d392be90ddcd429678060a08aacfa, type: 2}
+  - {fileID: 11400000, guid: a70ad12af2715be45a7e0f38a891201b, type: 2}
+  - {fileID: 11400000, guid: 4d4e4e01a0e61b042b096d881f7e5987, type: 2}
+  - {fileID: 11400000, guid: e926015e54c46a240b3de810beee31a5, type: 2}
+  - {fileID: 11400000, guid: 3a9d92c5b5338f34d8c8706842ae01c5, type: 2}
+  - {fileID: 11400000, guid: b6239e45363132847a773f6bea62cb2a, type: 2}
