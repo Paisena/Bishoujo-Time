@@ -15,5 +15,5 @@ MonoBehaviour:
   EventName: 
   dialouge: {fileID: 11400000, guid: e5e28de12c33eeb458b5a99da63991ab, type: 2}
   WhatStage: 0
-  MoodChangeTo: 1
-  MoodChangeFrom: 2
+  MoodChangeTo: 2
+  MoodChangeFrom: 1

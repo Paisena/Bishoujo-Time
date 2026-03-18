@@ -2973,7 +2973,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d581f03fe809cd048bbe3913c96da999, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TrainingEventManager
-  eventChance: 90
+  eventChance: 50
 --- !u!4 &964774232
 Transform:
   m_ObjectHideFlags: 0

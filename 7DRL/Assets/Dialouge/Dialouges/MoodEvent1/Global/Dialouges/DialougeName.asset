@@ -13,12 +13,17 @@ MonoBehaviour:
   m_Name: DialougeName
   m_EditorClassIdentifier: Assembly-CSharp::DialougeSO
   <DialougeName>k__BackingField: DialougeName
-  <CharacterName>k__BackingField: Miss
-  <CharacterIcon>k__BackingField: insert file path here
-  <Text>k__BackingField: ThiThis is a modd event
+  <CharacterName>k__BackingField: Girl
+  <CharacterIcon>k__BackingField: {fileID: 0}
+  <Text>k__BackingField: My whole day has been horrible
   <Choices>k__BackingField:
   - <Name>k__BackingField: 
     <Text>k__BackingField: Next Dialouge
+    <Requirements>k__BackingField: 
     <NextDialouge>k__BackingField: {fileID: 11400000, guid: 7cb569c6847ece148842d3c37b5ea71d, type: 2}
   <DialougeTypes>k__BackingField: 0
   <IsStartingDialouge>k__BackingField: 1
+  reward: []
+  <PickRewardRandom>k__BackingField: 0
+  <PickWhichReward>k__BackingField: 0
+  <PickRewardBasedOnChoice>k__BackingField: 0
