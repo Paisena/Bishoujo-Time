@@ -15,7 +15,6 @@ What didn't work:
 Gameplay loop is mostly uninteresting and lack replayability after completing the game once.
 
 Creating art assets was very time-consuming
-
 \
 What I would do with an additional week:
 
