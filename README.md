@@ -16,6 +16,7 @@ Gameplay loop is mostly uninteresting and lack replayability after completing th
 
 Creating art assets was very time-consuming
 \
+
 What I would do with an additional week:
 
 Create an item system to add more variety in strategies
