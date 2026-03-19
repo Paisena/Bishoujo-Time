@@ -2,20 +2,18 @@
 
 **Post Submission Reflection:**
 <br>
-
+\
 What worked:
 
 Most of the systems and mechanics that I originally planned are functional
 
 Created a narrative system that was not EXTREMELY clunky to use 
-<br>
 What didn't work:
 
 Gameplay loop is mostly uninteresting and lack replayability after completing the game once.
 
 Creating art assets was very time-consuming
 
-<br>
 What I would do with an additional week:
 
 Create an item system to add more variety in strategies
